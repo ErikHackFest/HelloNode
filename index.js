@@ -11,7 +11,10 @@ let date_ob = new Date();
 let date = ("0" + date_ob.getDate()).slice(-2);
 
 let year = date_ob.getFullYear();
-console.log(year)
 
+let day = date_ob.getDay();
+
+console.log(year);
+console.log(day);
 
 
